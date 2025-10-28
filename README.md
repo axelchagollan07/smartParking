@@ -1,76 +1,34 @@
-# smart-parking
-Aplicación móvil para gestionar un estacionamiento local con QR, reservaciones, historial de visitas y pasarela de pagos.
 
-## 🚀 Cómo empezar
+### Componentes principales:
+- **Front-End:** Interfaz web responsiva con HTML, CSS y JavaScript.  
+- **Back-End:** Servicios REST desarrollados en **Java (Jakarta EE)**.  
+- **Base de Datos:** **MySQL** con tablas normalizadas para usuarios, vehículos, reservas y pagos.  
+- **Sensores:** Dispositivos IoT que detectan disponibilidad de espacios.  
+- **Panel Administrativo:** Control y monitoreo de estacionamientos en tiempo real.
 
-Sigue estos pasos para ejecutar el proyecto en tu entorno local.
+---
 
-### Prerrequisitos
+## 🧑‍💻 Equipo de Desarrollo — AMDH Solutions
 
-Asegúrate de tener instalados los siguientes programas:
+| Rol | Integrante | Responsabilidad |
+|-----|-------------|----------------|
+| 🎯 Gestor / Product Manager | **Axel Emmanuel Chagollán Corona** | Planeación, coordinación y documentación del proyecto. |
+| ⚙️ Desarrollador Back-End | **Héctor** | Creación y mantenimiento de la API REST, conexión con base de datos. |
+| 💻 Desarrollador Front-End | **Miguel** | Diseño y desarrollo de la interfaz de usuario. |
+| 🧪 Tester QA | **Daniel** | Pruebas funcionales, reporte de errores y control de calidad. |
 
-* **Node.js**: [https://nodejs.org/](https://nodejs.org/)
-* **npm** (incluido con Node.js) o **Yarn**: [https://classic.yarnpkg.com/](https://classic.yarnpkg.com/)
-* **Expo CLI**: Puedes instalarlo globalmente con `npm install -g expo-cli`
+---
 
-### Instalación
+## ⚙️ Instalación y Ejecución
 
-1.  Clona el repositorio:
+### 🧾 Requisitos previos
+- Java JDK 17+
+- Jakarta EE 10
+- MySQL Server 8.0+
+- Apache Tomcat 10+
+- IDE recomendado: IntelliJ IDEA o Eclipse
 
-    ```bash
-    git clone [https://github.com/HectorRivas/smart-parking.git](https://github.com/HectorRivas/smart-parking.git)
-    ```
-
-2.  Navega al directorio del proyecto:
-
-    ```bash
-    cd smart-parking
-    ```
-
-3.  Instala las dependencias:
-
-    ```bash
-    npm install
-    # o
-    yarn install
-
-    #En caso de error con la instalcion de depencias, ejecuta lo siguiente
-    npm install --force 
-    # 0
-    npm install --legacy-peer-deps
-    ```
-
-### Ejecutar la aplicación
-
-Para iniciar la aplicación, ejecuta el siguiente comando:
-
-```bash
-npm start
-# o
-npx expo start
-Esto abrirá Expo Dev Tools en tu navegador. Puedes escanear el código QR con la aplicación Expo Go en tu teléfono para ver la aplicación o usar un emulador/simulador.
-
-📁 Estructura del proyecto
-App.js: El archivo principal de tu aplicación, donde se encuentra la lógica de la UI.
-
-package.json: Contiene la información del proyecto y sus dependencias.
-
-app.json: Configuración de tu aplicación de Expo.
-
-🤝 Contribución
-Si quieres contribuir a este proyecto, por favor sigue los siguientes pasos:
-
-Haz un "fork" del repositorio.
-
-Crea una nueva rama: git checkout -b feature/nombre-de-tu-caracteristica
-
-Realiza tus cambios y haz "commit" de ellos: git commit -m 'feat: agrega una nueva característica'
-
-Sube tus cambios a la rama: git push origin feature/nombre-de-tu-caracteristica
-
-Crea un "Pull Request".
-
-📜 Licencia
-<<<<<<< HEAD
-Este proyecto está bajo la licencia [MIT].
-
+### 🪜 Pasos de instalación
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/AMDH-Solutions/Smart-Parking.git
